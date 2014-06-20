@@ -21,6 +21,11 @@
 		box-sizing: border-box;
 	}
 
+    span.tab
+    {
+        padding: 0 50px;
+    }
+
 	body, input, textarea, select
 	{
 		font-family: 'Source Sans Pro', sans-serif;
