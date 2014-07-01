@@ -450,6 +450,7 @@
 				text-align: center;
 			}
 
+
 /*********************************************************************************/
 /* Icons                                                                         */
 /* Powered by Font Awesome by Dave Gandy | http://fontawesome.io                 */
@@ -1040,6 +1041,15 @@
 			}
 			
 				#footer-wrapper .feature-list h3:before
+				{
+					background: #3d4249 url('images/overlay.png');
+				}
+
+	       #footer-wrapper .feature-list h4
+			{
+			}
+			
+				#footer-wrapper .feature-list h4:before
 				{
 					background: #3d4249 url('images/overlay.png');
 				}
