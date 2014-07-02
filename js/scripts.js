@@ -22,15 +22,15 @@ $(document).ready(function () {
         goToByScroll(dataslide);
       });
     
-    $("form").submit(function(e) {
-          $.post($(this).attr("action"), // url 
-            $(this).serialize(), // data
-                function (data) { //success callback function
-                    alert("Email sent!");
-                }).error(function () {
-                    alert('Sending failed'); 
-                });
-            console.log(e)
-             e.preventDefault();
-          });
+//    $("form").submit(function(e) {
+//          $.post($(this).attr("action"), // url 
+//            $(this).serialize(), // data
+//                function (data) { //success callback function
+//                    alert("Email sent!");
+//                }).error(function () {
+//                    alert('Sending failed'); 
+//                });
+//            console.log(e)
+//             e.preventDefault();
+//          });
 });
