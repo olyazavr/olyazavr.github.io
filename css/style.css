@@ -1204,3 +1204,46 @@
 				{
 					color: #fff;
 				}
+/*********************************************************************************/
+/* Custom                                                                    */
+/*********************************************************************************/
+
+	.company-logo
+    {
+        padding-top: 5px;
+        padding-right: 10px;
+        float: left;
+        width: 70px;
+    }
+
+    .company
+    {
+        float: left;
+        width: 70%;
+    }
+
+    .company-body
+    {
+        font-size: 13px;
+    }
+
+    .skills-list
+    {
+        float: left;
+        padding-left: 90px;
+    }
+
+    .project-title
+    {
+        text-align:center;
+    }
+
+    .project-body
+    {
+        text-align: left;
+    }
+
+    .project-left-link
+    {
+        padding-right: 10px;
+    }
